@@ -44,7 +44,7 @@ public class BasePage {
         Find(locator).click();
     }
 
-    public void wirte(String locator, String keysToSend) {
+    public void write(String locator, String keysToSend) {
         Find(locator).clear();
         Find(locator).sendKeys("keysToSend");
     }

@@ -16,7 +16,7 @@ Feature: La barra de navegacion superior me permite navegar a todas las subsecci
            | 'Blog'      |
            | 'Mentorías' |
            | 'Udemy'     |
-           | 'El Dojo'   |
+           | 'Academia'   |
 
     Scenario: Courses are presented correctly to potential customers
        When I go to 'Cursos' using the navigation bar
