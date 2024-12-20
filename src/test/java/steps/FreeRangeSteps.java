@@ -52,7 +52,7 @@ public void validateCheckoutPlans() {
     List<String> listaEsperada = Arrays.asList(
         "Academia 16.99 mes 13 productos",
         "Academia 176 año 13 productos",
-        "Free Gratis 3 productos"
+        "Free Gratis 3 productoss"
     );
 
     // Normalizar ambas listas
