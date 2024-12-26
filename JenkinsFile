@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Tareas de limpieza') {
             steps {
-                git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice.git'
+                git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice'
                 sh 'gradle clean'
             }
         }
