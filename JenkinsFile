@@ -8,8 +8,8 @@ pipeline {
 
     stages {
         stage('Tareas de limpieza') {
-            git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice.git'
             steps {
+                git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice.git'
                 sh 'gradle clean'
             }
         }
