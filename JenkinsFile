@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -9,7 +8,7 @@ pipeline {
     stages {
         stage('Tareas de limpieza') {
             steps {
-                git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice'
+                git branch: 'main', url: 'https://github.com/CristianRosasAyala/FreeRangeAutPractice'  // Use correct branch name
                 sh 'gradle clean'
             }
         }
