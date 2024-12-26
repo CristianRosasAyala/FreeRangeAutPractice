@@ -1,0 +1,22 @@
+
+pipeline {
+    agent any
+
+    tools {
+        gradle 'Gradle'
+    }
+
+    stages {
+        stage('Tareas de limpieza') {
+            git 'https://github.com/CristianRosasAyala/FreeRangeAutPractice.git'
+            steps {
+                sh 'gradle clean'
+            }
+        }
+        stage('Imprimo cositas') {
+            steps {
+                echo "Soy un stage aparte"
+            }
+        }
+    }
+}
