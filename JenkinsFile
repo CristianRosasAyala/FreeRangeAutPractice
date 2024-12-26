@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Imprimo cositas') {
             steps {
-                echo "Soy un stage aparte"
+                echo "Soy un stage aparrte"
             }
         }
     }
